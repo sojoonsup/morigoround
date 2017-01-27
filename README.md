@@ -1,7 +1,5 @@
 # Mori Go Round
-
 Live project at http://www.morigoround.com/
-
 Twitter account https://twitter.com/morithetraveler
 
 Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
@@ -43,3 +41,5 @@ Mori uses <a href="https://www.npmjs.com/">npm</a>, <a href="http://gruntjs.com/
 In Terminal, install all node modules by running `npm install`. 
 Replace all API keys in both backend and frontend codes to test locally.
 Make sure you have Grunt installed, run `grunt serve`.
+
+The original 3D model with the animation was made with Blender. The file is also included in the 'Blender' folder.
