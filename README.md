@@ -21,7 +21,7 @@ When Mori reaches its destination of each trips, the backend server renders the 
 
 ## What Next? ##
 
-We’ve received lots of feedbacks from Mori’s fans and we are keep improving Mori to make it the most delightful and lively traveler that wonders around the world. Here are few things that could be implemented:</p>
+We’ve received lots of feedbacks from Mori’s fans and we are keep improving Mori to make it the most delightful and lively traveler that wonders around the world. Mori has long ways to go yet. Here are the main few things that could be implemented:
 
   * __Determining its destination by its own__
   
