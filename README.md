@@ -29,7 +29,7 @@ When Mori reaches its destination of each trips, the backend server renders the 
 <p>As we release this as an open source project, we would welcome anyone to help Mori turn into a more intelligent internet celebrity.</p>
 
 <h3>Installing Mori</h3>
-Mori uses <a href="https://www.npmjs.com/">npm</a>, grunt, and node express server.
+Mori uses <a href="https://www.npmjs.com/">npm</a>, <a href="http://gruntjs.com/">grunt</a>, and <a href="http://expressjs.com/">node express server</a>.
 In Terminal, install all node modules by running `npm install`. 
 Make sure you have Grunt installed and run `grunt serve`.
 Make sure to replace all API keys in order to test locally.  
