@@ -1,10 +1,10 @@
 # morigoround
-visit http://www.morigoround.com/
+Live project at http://www.morigoround.com/
 
 Mori was created by <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
 
 <h3>Who's Mori?</h3>
-<p>Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time.</p>
+<p>"Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time."</p>
 
 <h3>Under the Hood - How it works</h3>
 <p>Mori the Traveler is mainly programmed with Node.js, Three.js & Blender, Phantom.js, MongoDB, Google map API, and Twitter API.<br/><br/> All the locations that direct Mori to determine its destination for each trips are stored in the server as a list. The backend server constantly calculates detailed routes for Mori, moves and updates its location every second, and saves the latest geolocation data in the database. <br/><br/> When the viewers access the website, the client side application (front-end), requests Mori’s latest location from the server every few seconds. Then the website renders panoramic 360 degree views of the location via Google Map Street View as a background. On top of the street view, 3D model of Mori designed with Blender is rendered and animated through WebGL. 
