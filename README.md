@@ -6,7 +6,7 @@ Twitter account https://twitter.com/morithetraveler
 
 Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
 
-## Who's Mori? ##
+## Meet Mori ##
 
 <img src="https://github.com/sojoonsup/morigoround/blob/master/selfie.png?raw=true"/>
 
@@ -14,10 +14,10 @@ Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and
 
 ## Under the Hood - How it works ##
 
-Mori the Traveler is mainly programmed with <a href="https://nodejs.org">Node.js</a>, <a href="https://threejs.org/">Three.js</a> &amp; <a href="https://www.blender.org/">Blender</a>, <a href="http://phantomjs.org/">Phantom.js</a> &amp; <a href="https://github.com/brenden/node-webshot">Node Webshot</a>, <a href="https://www.mongodb.com/">MongoDB</a>, Google map API, and Twitter API.
+Mori the Traveler is mainly programmed with <a href="https://nodejs.org">NodeJS</a>, <a href="https://threejs.org/">ThreeJS</a> &amp; <a href="https://www.blender.org/">Blender</a>, <a href="http://phantomjs.org/">PhantomJS</a> &amp; <a href="https://github.com/brenden/node-webshot">Node Webshot</a>, <a href="https://www.mongodb.com/">MongoDB</a>, Google map API, and Twitter API.
 All the locations that direct Mori to determine its destination for each trips are stored in the server as a list. The backend server constantly calculates detailed routes for Mori, moves and updates its location every second, and saves the latest geolocation data in the database.
-When the viewers access the website, the client side application (front-end), requests Mori’s latest location from the server every few seconds. Then the website renders panoramic 360 degree views of the location via Google Map Street View as a background. On top of the street view, 3D model of Mori designed with Blender is rendered and animated through WebGL <a href="https://github.com/mrdoob/three.js/blob/dev/examples/webgl_animation_skinning_morph.html">(example)</a>. 
-When Mori reaches its destination of each trips, the backend server renders the website in a virtual web browser with Phantom.js and captures a screenshot of Mori as a png format in the cloud. It then automatically uploads the ‘selfie’ to its Twitter with words that pair with its location.
+When the viewers access the website, the client side application (front-end), requests Mori’s latest location from the server every few seconds. Then the website renders panoramic 360 degree views of the location via Google Map Street View as a background. On top of the street view, 3D model of Mori designed with Blender is rendered and animated through ThreeJS <a href="https://github.com/mrdoob/three.js/blob/dev/examples/webgl_animation_skinning_morph.html">(example)</a>. 
+When Mori reaches its destination of each trips, the backend server renders the website in a virtual web browser with PhantomJS and captures a screenshot of it as a png format in the cloud. It then automatically uploads the ‘selfie’ to its Twitter with words that pair with its location.
 
 ## What Next? ##
 
