@@ -35,7 +35,7 @@ We’ve received lots of feedbacks from Mori’s fans and we are keep improving 
   
     Can Mori jump? Swim? Eat? What if it changes its clothes? What if it rains? Can we add its voice? Does it grow up? What would be a more detailed personalities that would make it appeal to the viewers?
 
-As we release this as an open source project, we would welcome anyone to help Mori turn into a more intelligent internet celebrity.
+As we release this as an open source project, we would welcome anyone to help Mori turn into a more intelligent internet celebrity. Please feel free to jump in if you have any ideas or codes!
 
 ## Installing Mori ##
 
