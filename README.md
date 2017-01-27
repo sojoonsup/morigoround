@@ -10,7 +10,7 @@ Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and
 
 "Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time."
 
-<img src="https://github.com/sojoonsup/morigoround/blob/master/screenshot.png?raw=true"/>
+<img src="https://github.com/sojoonsup/morigoround/blob/master/screencapture.gif?raw=true"/>
 
 ## Under the Hood - How it works ##
 
@@ -36,6 +36,8 @@ We’ve received lots of feedbacks from Mori’s fans and we are keep improving 
     Can Mori jump? Swim? Eat? What if it changes its clothes? What if it rains? Can we add its voice? Does it grow up? What would be a more detailed personalities that would make it appeal to the viewers?
 
 As we release this as an open source project, we would welcome anyone to help Mori turn into a more intelligent internet celebrity. Please feel free to jump in if you have any ideas or codes!
+
+<img src="https://github.com/sojoonsup/morigoround/blob/master/screenshot.png?raw=true"/>
 
 ## Installing Mori ##
 
