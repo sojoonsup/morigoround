@@ -1,9 +1,14 @@
 # Mori Go Round
+
 Live project at http://www.morigoround.com/
+
+Twitter account https://twitter.com/morithetraveler
 
 Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
 
 ## Who's Mori? ##
+
+<img src="https://github.com/sojoonsup/morigoround/blob/master/selfie.png?raw=true"/>
 
 "Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time."
 
