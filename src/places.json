@@ -1,0 +1,721 @@
+[
+	{
+		"name" : "Rhode Island School of Design",
+		"address" : "2 College St, Providence, RI 02903",
+		"tweet" : "Starting my journey! @risd"
+	},
+	{
+		"name" : "Rhode Island School of Design Museum",
+		"address" : "20 N Main St, Providence, RI 02903",
+		"tweet" : "@RISDWorks"
+	},
+	{
+		"name" : "15 West & Fleet Library",
+		"address" : "15 Westminster St, Providence, RI 02903",
+		"tweet" : "Mommy's home & Visitor's #1 hotspot RISD library"
+	},
+	{
+		"name" : "Rhode Island State House",
+		"address" : "82 Smith St, Providence, RI 02903",
+		"tweet" : "Ooh fancy building"
+	},
+	{
+		"name" : "Providence Athenaeum",
+		"address" : "251 Benefit St, Providence, RI 02903",
+		"tweet" : "Beautiful library on a pretty day🌞"
+	},
+	{
+		"name" : "First Baptist Church in America",
+		"address" : "75 N Main St, Providence, RI 02903",
+		"tweet" : "As you can tell from the name..."
+	},
+	{
+		"name" : "Industrial Design Building",
+		"address" : "161 S Main St, Providence, RI 02903",
+		"tweet" : "Back at my birth place!!!!"
+	},
+	{
+		"name" : "Roger Williams National Memorial",
+		"address" : "282 N Main St, Providence, RI 02903",
+		"tweet" : "Taking a casual walk @rowi1636"
+	},
+	{
+		"name" : "Roger Williams Park Zoo",
+		"address" : "1000 Elmwood Ave, Providence, RI 02905",
+		"tweet" : "🐅🐫🐘🐳 @RWPZoo"
+	},
+	{
+		"name" : "Eugene’s Home",
+		"address" : "308 Benefit St, Providence, RI 02903",
+		"tweet" : "Home of my daddy, Eugene "
+	},
+	{
+		"name" : "Old State House",
+		"address" : "150 Benefit St, Providence, RI 02903",
+		"tweet" : "🏤"
+	},
+	{
+		"name" : "Woods-Gerry House",
+		"address" : "62 Prospect St, Providence, RI 02906",
+		"tweet" : "Wanna check out cool art works by @RISD students?"
+	},
+	{
+		"name" : "Brown University",
+		"address" : "75 Waterman St, Providence, RI 02906",
+		"tweet" : "Hey @BrownUniversity!"
+	},
+	{
+		"name" : "SciLi",
+		"address" : "201 Thayer St, Providence, RI 02912",
+		"tweet" : "Where you can study AND grab Kung Fu Tea"
+	},
+	{
+		"name" : "Urban Outfitters",
+		"address" : "285 Thayer St, Providence, RI 02906",
+		"tweet" : "Anyone wants to help me choose cute socks? (Yes I do wear them) @UrbanOutfitters"
+	},
+	{
+		"name" : "India Point Park",
+		"address" : "Gano St, Providence, RI 02903",
+		"tweet" : "Mmmm fresh air"
+	},
+	{
+		"name" : "The Duck and Bunny",
+		"address" : "312 Wickenden St, Providence, RI 02903",
+		"tweet" : "Where are those duck and bunny tho?🐇"
+	},
+	{
+		"name" : "Providence Children's Museum",
+		"address" : "100 South St, Providence, RI 02903",
+		"tweet" : "Am I too old for @ProvCM"
+	},
+	{
+		"name" : "Roger Williams Park Botanical Center",
+		"address" : "1000 Elmwood Avenue, Providence, RI 02905",
+		"tweet" : "🌿🌼🎍🍄🌳🌺"
+	},
+	{
+		"name" : "Prospect Terrace Park",
+		"address" : "Congdon St & Cushing St, Providence, RI 02906",
+		"tweet" : "Breathtaking view"
+	},
+	{
+		"name" : "Neutaconkanut Hill",
+		"address" : "Legion Memorial Dr, Providence, RI 02909",
+		"tweet" : "🌳🌳🌳🌳"
+	},
+	{
+		"name" : "International Tennis Hall of Fame",
+		"address" : "194 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "🎾"
+	},
+	{
+		"name" : "The Breakers",
+		"address" : "44 Ochre Point Ave, Newport, RI 02840",
+		"tweet" : "#breakers #newport #massive"
+	},
+	{
+		"name" : "Marble House",
+		"address" : "596 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "Wish I'd lived here"
+	},
+	{
+		"name" : "Rough Point",
+		"address" : "680 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "This place closes so early and I couldn't make it to the inside...But enjoy the exterior!"
+	},
+	{
+		"name" : "Rosecliff",
+		"address" : "548 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "Overwhelmed by all these gorgeous mansions"
+	},
+	{
+		"name" : "Fort Adams Pt State Park",
+		"address" : "84 Fort Adams Dr, Newport, RI 02840",
+		"tweet" : "I heard it's a great place for fishing🎣"
+	},
+	{
+		"name" : "National Museum of American Illustration",
+		"address" : "492 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "Come join me @TheNMAI"
+	},
+	{
+		"name" : "Chateau-sur-Mer",
+		"address" : "474 Bellevue Ave, Newport, RI 02840",
+		"tweet" : "#oldest #mansion #newport"
+	},
+	{
+		"name" : "Green Animals Topiary Garden",
+		"address" : "380 Corys Ln, Portsmouth, RI 02871",
+		"tweet" : "These dudes are green for real!!"
+	},
+	{
+		"name" : "Naval War College Museum",
+		"address" : "Founders Hall, Building 10, Luce Ave, Newport, RI 02841",
+		"tweet" : "@USNWCMuseum"
+	},
+	{
+		"name" : "Mark Twain House",
+		"address" : "351 Farmington Ave, Hartford, CT 06105",
+		"tweet" : ""
+	},
+	{
+		"name" : "Wadsworth Atheneum",
+		"address" : "600 Main St, Hartford, CT 06103",
+		"tweet" : ""
+	},
+	{
+		"name" : "Harriet Beecher Stowe House",
+		"address" : "77 Forest St, Hartford, CT 06105",
+		"tweet" : ""
+	},
+	{
+		"name" : "Connecticut Science Center",
+		"address" : "250 Columbus Blvd, Hartford, CT 06103",
+		"tweet" : ""
+	},
+	{
+		"name" : "Old State House",
+		"address" : "800 Main St, Hartford, CT 06103",
+		"tweet" : ""
+	},
+		{
+		"name" : "Bushnell Park",
+		"address" : "Trinity St, Hartford, CT 06106",
+		"tweet" : ""
+	},
+	{
+		"name" : "Elizabeth Park, Hartford",
+		"address" : "1561 Asylum Ave, West Hartford, CT 06117",
+		"tweet" : ""
+	},
+	{
+		"name" : "Connecticut State Capitol",
+		"address" : "200 Capitol Ave, Hartford, CT 06106",
+		"tweet" : ""
+	},
+	{
+		"name" : "Connecticut Historical Society",
+		"address" : "1 Elizabeth St, Hartford, CT 06105",
+		"tweet" : ""
+	},
+		{
+		"name" : "Talcott Mountain State Park",
+		"address" : "560 Simsbury Rd, Bloomfield, CT 06002",
+		"tweet" : ""
+	},
+		{
+		"name" : "Wickham Park",
+		"address" : "1329 Middle Turnpike W, Manchester, CT 06040",
+		"tweet" : ""
+	},
+	{
+		"name" : "Colt Park",
+		"address" : "106 Wethersfield Ave, Hartford, CT 06114",
+		"tweet" : ""
+	},
+	{
+		"name" : "Real Art Ways",
+		"address" : "56 Arbor St, Hartford, CT 06106",
+		"tweet" : ""
+	},
+		{
+		"name" : "The Museum of Connecticut History",
+		"address" : "231 Capitol Ave, Hartford, CT 06106",
+		"tweet" : ""
+	},
+	{
+		"name" : "Butler-McCook Homestead",
+		"address" : "396 Main St, Hartford, CT 06103",
+		"tweet" : ""
+	},
+	{
+		"name" : "Trash Museum",
+		"address" : "211 Murphy Rd, Hartford, CT 06114",
+		"tweet" : ""
+	},
+	{
+		"name" : "Pope Park",
+		"address" : "Pope Park Dr, Hartford, CT 06106",
+		"tweet" : ""
+	},
+		{
+		"name" : "Bushnell Park Carousel",
+		"address" : "1 Jewell St, Hartford, CT 06103",
+		"tweet" : ""
+	},
+	{
+		"name" : "Charter Oak Landing",
+		"address" : "50 Reserve Rd, Hartford, CT 06114",
+		"tweet" : ""
+	},
+		{
+		"name" : "Foster Heights Playground",
+		"address" : "Amherst St, Hartford, CT 06114",
+		"tweet" : ""
+	},
+	{
+		"name" : "Yale University Art Gallery",
+		"address" : "Yale University, 1111 Chapel St, New Haven, CT 06510",
+		"tweet" : ""
+	},
+	{
+		"name" : "Yale Center for British Art",
+		"address" : "1080 Chapel St, New Haven, CT 06510",
+		"tweet" : ""
+	},
+	{
+		"name" : "East Rock Park",
+		"address" : "41 Cold Spring St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Grove Street Cemetery",
+		"address" : "Grove St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Shubert Theatre",
+		"address" : "247 College St, New Haven, CT 06510",
+		"tweet" : ""
+	},
+	{
+		"name" : "Connecticut Children’s Museum",
+		"address" : "22 Wall St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "New Haven Museum and Historical Society",
+		"address" : "114 Whitney Ave, New Haven, CT 06510",
+		"tweet" : ""
+	},
+	{
+		"name" : "Edgerton Park",
+		"address" : "75 Cliff St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "West Rock Ridge State Park",
+		"address" : "1134 Wintergreen Ave, New Haven, CT 06514",
+		"tweet" : ""
+	},
+	{
+		"name" : "Yale University",
+		"address" : "195 Prospect St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Yale Peabody Museum of Natural History",
+		"address" : "170 Whitney Ave, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Knights of Columbus Museum",
+		"address" : "1 State St, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Edgewood Park",
+		"address" : "Edgewood Ave, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Wooster Square Historic District",
+		"address" : "2 Wooster Pl, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Farmington Canal Greenway",
+		"address" : "Winchester Ave, New Haven, CT 06511",
+		"tweet" : ""
+	},
+	{
+		"name" : "Quinnipiac River Historic District",
+		"address" : "71 Front St, New Haven, CT 06513",
+		"tweet" : ""
+	},
+	{
+		"name" : "Silver Sands State Park",
+		"address" : "1 Silver Sands Park Way, Milford, CT 06460",
+		"tweet" : ""
+	},
+	{
+		"name" : "Connecticut Audubon Society Coastal Center at Milford Point",
+		"address" : "1 Milford Point Rd, Milford, CT 06460",
+		"tweet" : ""
+	},
+	{
+		"name" : "Eisenhower Park",
+		"address" : "780 North St, Milford, CT 06461",
+		"tweet" : ""
+	},
+	{
+		"name" : "Walnut Beach Pavilion",
+		"address" : "85 Viscount Dr, Milford, CT 06460",
+		"tweet" : ""
+	},
+	{
+		"name" : "Lyman Allyn Art Museum",
+		"address" : "625 Williams St, New London, CT 06320",
+		"tweet" : ""
+	},
+	{
+		"name" : "New London Customhouse",
+		"address" : "150 Bank St, New London, CT 06320",
+		"tweet" : ""
+	},
+	{
+		"name" : "Ocean Beach Park",
+		"address" : "98 Neptune Ave, New London, CT 06320",
+		"tweet" : ""
+	},
+	{
+		"name" : "New London Waterfront Park",
+		"address" : "1 Water St, New London, CT 06320",
+		"tweet" : ""
+	},
+
+	{
+		"name" : "Faneuil Hall",
+		"address" : "4 South Market Building, 5th Floor, Boston, MA 02109",
+		"tweet" : ""
+	},
+	{
+		"name" : "New England Aquarium",
+		"address" : "1 Central Wharf, Boston, MA 02110",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston Common",
+		"address" : "139 Tremont St, Boston, MA 02111",
+		"tweet" : ""
+	},
+	{
+		"name" : "Fenway Park",
+		"address" : "4 Yawkey Way, Boston, MA 02215",
+		"tweet" : ""
+	},
+	{
+		"name" : "Public Garden",
+		"address" : "4 Charles St, Boston, MA 02116",
+		"tweet" : ""
+	},
+	{
+		"name" : "Museum of Fine Arts",
+		"address" : "465 Huntington Ave, Boston, MA 02115",
+		"tweet" : ""
+	},
+	{
+		"name" : "Museum of Science",
+		"address" : "1 Science Park, Boston, MA 02114",
+		"tweet" : "What kind of museum has IMAX inside?!?"
+	},
+		{
+		"name" : "Boston Museum",
+		"address" : "306 Congress St, Boston, MA 02210",
+		"tweet" : ""
+	},
+		{
+		"name" : "Paul Revere House",
+		"address" : "19 N Square, Boston, MA 02113",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston Children’s Museum",
+		"address" : "308 Congress St, Boston, MA 02210",
+		"tweet" : ""
+	},
+	{
+		"name" : "Newbury Street",
+		"address" : "327 Newbury St, Boston, MA 0211",
+		"tweet" : "My favorite place to shop!!!....or eat"
+	},
+	{
+		"name" : "Swan Boats",
+		"address" : "4 Charles St S, Boston, MA 02116",
+		"tweet" : ""
+	},
+	{
+		"name" : "Old North Church",
+		"address" : "193 Salem St, Boston, MA 02113",
+		"tweet" : ""
+	},
+	{
+		"name" : "Bunker Hill Monument",
+		"address" : "Monument Sq, Charlestown, MA 02129",
+		"tweet" : ""
+	},
+	{
+		"name" : "USS Constitution Museum",
+		"address" : "Building 22, Charlestown Navy Yard, Charlestown, MA 02129",
+		"tweet" : ""
+	},
+	{
+		"name" : "Isabella Stewart Gardner Museum",
+		"address" : "25 Evans Way, Boston, MA 02115",
+		"tweet" : "Beautiful beautiful garden.. <3"
+	},
+	{
+		"name" : "Chinatown",
+		"address" : "88 Beach St, Boston, MA 02111",
+		"tweet" : "#dimsum and #boba. My life is complete."
+	},
+	{
+		"name" : "ICA",
+		"address" : "25 Harbor Shore Drive, Boston, MA 02210",
+		"tweet" : ""
+	},
+	{
+		"name" : "John F Kennedy Presidential Library and Museum",
+		"address" : "Columbia Point, Boston, MA 02125",
+		"tweet" : ""
+	},
+	{
+		"name" : "Massachusetts State House",
+		"address" : "24 Beacon St, Boston, MA 02133",
+		"tweet" : ""
+	},
+	{
+		"name" : "Old State House",
+		"address" : "206 Washington St, Boston, MA 02109",
+		"tweet" : ""
+	},
+	{
+		"name" : "Harvard Yard",
+		"address" : "2 Kirkland St, Cambridge, MA 02138",
+		"tweet" : ""
+	},
+	{
+		"name" : "Harvard Museum of Natural History",
+		"address" : "26 Oxford St, Cambridge, MA 02138",
+		"tweet" : ""
+	},
+	{
+		"name" : "Prudential Center",
+		"address" : "101 Huntington Ave, Boston, MA 02199",
+		"tweet" : "I’m here at Boston’s hottest shopping spot yay!"
+	},
+	{
+		"name" : "Charles Street",
+		"address" : "70 Charles St, Boston, MA 02114",
+		"tweet" : ""
+	},
+	{
+		"name" : "Old South Meeting House",
+		"address" : "310 Washington St, Boston, MA 02108",
+		"tweet" : ""
+	},
+	{
+		"name" : "Granary Burying Ground",
+		"address" : "Tremont St, Boston, MA 02108",
+		"tweet" : ""
+	},
+	{
+		"name" : "Trinity Church",
+		"address" : "Copley Square, Boston, MA 02116",
+		"tweet" : ""
+	},
+		{
+		"name" : "Castle Island",
+		"address" : "2010 William J Day Blvd, South Boston, MA 02127",
+		"tweet" : ""
+	},
+	{
+		"name" : "Arnold Arboretum",
+		"address" : "125 Arborway, Boston, MA 02130",
+		"tweet" : ""
+	},
+		{
+		"name" : "Franklin Park Zoo",
+		"address" : "1 Franklin Park Rd, Boston, MA 02121",
+		"tweet" : ""
+	},
+	{
+		"name" : "Downtown Crossing",
+		"address" : "10 Summer St, Boston, MA 02110",
+		"tweet" : ""
+	},
+	{
+		"name" : "Harvard Art Museums",
+		"address" : "32 Quincy St, Cambridge, MA 02138",
+		"tweet" : ""
+	},
+	{
+		"name" : "Harvard Square",
+		"address" : "18 Brattle St #352, Cambridge, MA 02138",
+		"tweet" : ""
+	},
+	{
+		"name" : "MIT Museum",
+		"address" : "265 Massachusetts Ave, Cambridge, MA 02139",
+		"tweet" : ""
+	},
+	{
+		"name" : "Nichols House Museum",
+		"address" : "55 Mount Vernon St, Boston, MA 02108",
+		"tweet" : ""
+	},
+	{
+		"name" : "Charles River Esplanade",
+		"address" : "152 Storrow Dr, Boston, MA 02215",
+		"tweet" : ""
+	},
+	{
+		"name" : "Peabody Museum of Archaeology and Ethnology",
+		"address" : "11 Divinity Ave, Cambridge, MA 02138",
+		"tweet" : ""
+	},
+	{
+		"name" : "Middlesex Fells Reservation",
+		"address" : "4 Woodland Rd, Stoneham, MA 02180",
+		"tweet" : ""
+	},
+	{
+		"name" : "John Hancock Tower",
+		"address" : "200 Clarendon St, Boston 02116",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston Public Library, McKim Building",
+		"address" : "700 Boylston St, Boston, MA 02116",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston National Historical Park",
+		"address" : "Building 5, Charlestown Navy Yard, Boston, MA 02109",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston Tea Party Ships & Museum",
+		"address": "306 Congress St, Boston, MA 02210",
+		"tweet" : ""
+	},
+	{
+		"name" : "Emerald Necklace",
+		"address" : "Emerald Necklace, Boston, MA 02130",
+		"tweet" : ""
+	},
+	{
+		"name" : "Skywalk",
+		"address" : "Prudential Center, 800 Boylston St, Boston, MA 02199",
+		"tweet" : "#acrophobia"
+	},
+	{
+		"name" : "MIT",
+		"address" : "77 Massachusetts Ave, Cambridge, MA 02139",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston College",
+		"address" : "Chestnut Hill, MA 02467",
+		"tweet" : ""
+	},
+	{
+		"name" : "Boston University",
+		"address" : "1 Silber Way, Boston, MA 02215",
+		"tweet" : ""
+	},
+	{
+		"name" : "Berklee College of Music",
+		"address" : "1140 Boylston Street, Boston, MA 02215",
+		"tweet" : ""
+	},
+	{
+		"name" : "Walnut Hill School for the Arts",
+		"address" : "12 Highland St, Natick, MA 01760",
+		"tweet" : "Here I am at Walnut Hill School, where my mommy Hyo Bin graduated from! "
+	},
+	{
+		"name" : "Natick Mall",
+		"address" : "1245 Worcester St, Natick, MA 01760",
+		"tweet" : "Who’s down for another shopping round?"
+	},
+	{
+		"name" : "Cochituate State Park",
+		"address" : "43 Commonwealth Rd, Natick, MA 01760",
+		"tweet" : ""
+	},
+	{
+		"name" : "Museum of World War II",
+		"address" : "8 Mercer Rd, Natick, MA 01760",
+		"tweet" : ""
+	},
+	{
+		"name" : "Natick Center Historic District",
+		"address" : "20 Main St #208, Natick, MA 01760",
+		"tweet" : ""
+	},
+
+	{
+		"name" : "MOMA",
+		"address" : "11 W 53rd St, New York, NY 10019",
+		"tweet" : "Wassssssssup MOMA! @MoMArobot"
+	},
+	{
+		"name" : "Asphalt Green Upper East Side",
+		"address": "555 E 90th St, New York, NY 10128",
+		"tweet" : ""
+	},
+	{
+		"name" : "Charging Bull, NY",
+		"address": "Broadway & Morris St, New York, NY 10004",
+		"tweet" : ""
+	},
+	{
+		"name" : "Times Square, New York",
+		"address": "Times Square, 1540 Broadway, New York, NY 10036",
+		"tweet" : ""
+	},
+	{
+		"name" : "Brooklyn Bridge, New York",
+		"address": "Brooklyn Bridge, New York, NY 10038",
+		"tweet" : ""
+	},
+	{
+		"name" : "Bronx Zoo",
+		"address": "2300 Southern Blvd, Bronx, NY 10460",
+		"tweet" : ""
+	},
+	{
+		"name" : "Macy's, New Jersey",
+		"address": "30 Mall Dr W, Jersey City, NJ 07310",
+		"tweet" : ""
+	},
+	{
+		"name" : "Pier 94, New York",
+		"address": "711 12th Ave, New York, NY 10019",
+		"tweet" : ""
+	},
+	{
+		"name" : "Yonkers Station, NY",
+		"address": "5 Buena Vista Ave, Yonkers, NY 10701",
+		"tweet" : ""
+	},
+	{
+		"name" : "Flushing, NY",
+		"address": "65-30 Kissena Blvd, Flushing, NY 11367",
+		"tweet" : ""
+	},
+	{
+		"name" : "K-Town, New York",
+		"address": "38 W 32nd St, New York, NY 10001",
+		"tweet" : ""
+	},
+	{
+		"name" : "Cooper Hewitt Smithsonian Design Museum, NY",
+		"address": "2 E 91st St, New York, NY 10128",
+		"tweet" : ""
+	},
+	{
+		"name" : "MetLife Stadium, NJ",
+		"address": "1 MetLife Stadium Dr, East Rutherford, NJ 07073",
+		"tweet" : ""
+	},
+	{
+		"name" : "Dia:Beacon, NY",
+		"address": "3 Beekman St, Beacon, NY 12508",
+		"tweet" : ""
+	}
+	
+	
+]

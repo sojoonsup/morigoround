@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mori Go Round</title>
+  <meta name="author" content="Eugene So & Hyo Bin Yang" />
+  <meta name="title" content="Mori Go Round" />
+  <meta name="description" content="Mori the Traveler" />
+  <meta name="viewport" content="width=device-width, height=device-height" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <!-- Font -->
+  <script src="https://use.typekit.net/rjl0rjq.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+  <script src="bower_components/three.js/examples/js/loaders/OBJLoader.js"></script>
+  <script src="bower_components/three.js/examples/js/controls/OrbitControls.js"></script>
+
+  <!-- OG -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@travelingbot" />
+  <meta name="twitter:title" content="Mori Go Round" />
+  <meta name="twitter:description" content="Bot that travels" />
+  <meta name="twitter:image" content="http://al.jpg" />
+</head>
+<body>
+
+  <!-- Street view -->
+  <div id="pano"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="info-wrapper">
+      <h1 id="info-title">Mori</h1>
+      <p>heading to <span id="info-address"></span></p>
+    </div>
+    <div class="buttons-wrapper">
+      <audio id="audio" autoplay loop>
+        <source type="mp3">
+      </audio>
+      <button id="audio-toggle" onclick="toggleMute()">
+        <img id="audio-eq" src="src/img/eq.gif">
+      </button>
+      <button id="about-toggle">Toggle Audio</button>
+    </div>
+  </header>
+
+  <!-- Loader -->
+  <div id="loader" class="loading">
+    <h1>Mori the Traveler</h1>
+    <h3><span id="loader-progress"></span>% loaded</h3>
+    <p>Mori found at<br/><span id="loader-location">??</span></p>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=
+    ///////////////////////////////
+    //Please Contact for API keys//
+    ///////////////////////////////
+  "></script>
+  <script src="js/main.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/about.js"></script>
+
+  <!-- FB -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=
+    ///////////////////////////////
+    //Please Contact for API keys//
+    ///////////////////////////////
+  ";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- About -->
+  <div id="about-wrapper" class="about-wrapper hidden">
+    <div class="about">
+      <button id="about-close"><img src="src/img/close.svg"></button>
+      <h1>Mori Go Round</h1>
+      <ul class="selfies-wrapper">
+      </ul>
+      <p>Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time.</p>
+      <p>Don’t forget to check out <a href="https://twitter.com/morithetraveler">my Twitter : @morithetraveler</a> 😘</p>
+
+      <p class="small">Mori was created by <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a></p>
+      <div class="fb-like" data-href="http://www.morigoround.com/" data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      <p class="small">Copyright &copy; 2016 Eugene So &amp; Hyo Bin Yang. All Rights Reserved.</p>
+    </div>
+  </div>
+
+  <!-- Favicon -->
+  <link rel='icon' href='favicon.png' type='image/png' />
+</body>
+</html>

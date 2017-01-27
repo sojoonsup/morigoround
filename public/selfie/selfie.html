@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://use.typekit.net/rjl0rjq.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" href="../css/main.css" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+  <script src="../bower_components/three.js/examples/js/loaders/OBJLoader.js"></script>
+  <script src="CanvasRenderer.js"></script>
+  <script src="Projector.js"></script>
+
+  <div id="pano"></div>
+  <header>
+    <div class="info-wrapper">
+      <h1 id="info-title">Mori</h1>
+      <p>heading to <span id="info-address"></span></p>
+    </div>
+    <div class="buttons-wrapper">
+    </div>
+  </header>
+  <!-- SCRIPTS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=
+    ///////////////////////////////
+    //Please Contact for API keys//
+    ///////////////////////////////
+  "></script>
+  <script type="text/javascript">
+
+// MAP
+var svService;
+var panorama;
+
+function initMap(){
+    sv = new google.maps.StreetViewService();
+    panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'));
+    $.get('/getLocation', {}, function(res, resp){
+    sv.getPanorama({location: {lat: res.lat, lng: res.lng}, radius: 50}, processSVData);
+
+    if(res.tripDestName != null) {
+        document.getElementById('info-address').innerHTML = res.tripDestName;
+    }
+  });
+}
+
+
+
+function processSVData(data, status) {
+  panorama.setPano(data.location.pano);
+  panorama.setPov({
+    heading: 260,
+    pitch: 0
+  });
+
+  panorama.setOptions({
+      linksControl: false,
+      panControl: false,
+      enableCloseButton: false,
+      motionTrackingControl: false,
+      fullscreenControl: false,
+      addressControl: false,
+      disableDefaultUI: true
+  }); 
+}
+
+/*
+=============
+THREE.JS
+=============
+*/
+var windowHalfX = window.innerWidth / 2;
+var windowHalfY = window.innerHeight / 2;
+var mouseX = 0;
+var mouseY = 0;
+var controls;
+var camera, scene, renderer;
+var mesh;
+var prevCamX, prevCamY;
+var eyeMesh, eyeMesh2, objGroup, glasses;
+
+function initThree(){
+    scene = new THREE.Scene();
+
+    camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 20000 );
+    camera.position.z = 3;
+    camera.position.y = 1;
+    prevCamX = camera.rotation.x;
+    prevCamY = camera.rotation.y;
+
+    // Light
+    scene.add( new THREE.HemisphereLight( 0x111111, 0x444444 ) );
+
+    var light = new THREE.DirectionalLight( 0xe0e0e0, 1.5 );
+    light.position.set( -100, 550, 800 ).multiplyScalar( 1.1 );
+    scene.add( light );
+
+    light.castShadow = true;
+
+    light.shadow.mapSize.width = 1024;
+    light.shadow.mapSize.height = 1024;
+
+    var d = 100;
+
+    light.shadow.camera.left = -d;
+    light.shadow.camera.right = d;
+    light.shadow.camera.top = d * 2;
+    light.shadow.camera.bottom = -d;
+
+    light.shadow.camera.far = 4000;
+
+
+    // RENDERER
+    renderer = new THREE.CanvasRenderer({alpha:true});
+    
+    renderer.setClearColor( 0x000000, 0 );
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.gammaInput = true;
+    renderer.gammaOutput = true;
+    document.body.appendChild(renderer.domElement);
+
+
+    // Glasses and Eyes
+    objGroup = new THREE.Object3D();
+    objGroup.position.set(-.55,.7,1.52);
+
+    var objLoader = new THREE.OBJLoader();
+    objLoader.load('../src/model/glasses.obj', function(obj){
+        obj.traverse(function(child){
+            // child.material = new THREE.MeshNormalMaterial({shading: THREE.SmoothShading});
+            child.material = new THREE.MeshPhongMaterial( {
+                color: 0x937153,
+                emissive: 0xff3030,
+                specular: 0x0f0f0f,
+                shininess: 100,
+                overdraw:true
+            });
+        });
+
+        glasses = obj;
+        glasses.scale.set(.18,.18,.18);
+        glasses.position.set(0.3,0.26,-.8);
+        glasses.rotation.set(1.6,3.15,0.1);
+        glasses.castShadow = true;
+
+        objGroup.add(glasses);
+    })
+
+    var eyeG = new THREE.SphereGeometry( .1, 32, 32 );
+    var eyeM = new THREE.MeshPhongMaterial( {
+        color: 0x010101,
+        specular: 0x3f3f3f,
+        shininess: 100,
+        overdraw:true
+    });
+    eyeMesh = new THREE.Mesh( eyeG, eyeM );
+    eyeMesh.position.set(.32,.26,-.72);
+    eyeMesh2 = new THREE.Mesh( eyeG, eyeM );
+    eyeMesh2.position.set(-.38,.26,-.66);
+    
+    objGroup.add( eyeMesh );
+    objGroup.add( eyeMesh2 );
+
+    // Selfie objGroup move
+
+    scene.add(objGroup);
+
+    // Load Mori Model
+    var loader = new THREE.JSONLoader();
+    loader.load( "selfie.js", function(geometry){
+
+        geometry.computeBoundingBox();
+
+        // Materials (Override)
+        var material = new THREE.MeshPhongMaterial({
+            color: 0x0f9fef,
+            emissive: 0x5f7faf,
+            specular: 0xdf0fff,
+            shininess: 5,
+            shading: THREE.SmoothShading,
+            morphTargets: true,
+            visible: true,
+            needsUpdate: true,
+            skinning: true,
+            wireframe:false,
+            overdraw:true
+        });
+        
+        // Mesh
+        mesh = new THREE.SkinnedMesh( geometry, material );
+        mesh.position.set(-.8,.2,0);
+        mesh.scale.set(.7,.7,.7);
+        mesh.rotation.set(0,1.8,0);
+        scene.add( mesh );
+
+        mesh.castShadow = true;
+        mesh.receiveShadow = true;
+
+        renderer.render(scene, camera);
+    });
+}
+
+initMap();
+initThree();
+  </script>
+</body>
+</html>

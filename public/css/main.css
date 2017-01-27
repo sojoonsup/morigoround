@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html, body {
+  height: 100.1%;
+  margin: 0;
+  padding: 0;
+  font-family: "mr-eaves-modern", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 110%;
+  line-height: 1.5;
+  color: #333;
+  overflow: hidden; }
+
+body {
+  width: 100%; }
+
+h1 {
+  font-weight: 400; }
+
+p {
+  font-weight: 300; }
+  p .small {
+    font-size: .875em; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+span {
+  display: inline-block; }
+
+#pano {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+button {
+  border: none;
+  outline: none; }
+
+canvas {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0; }
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+  z-index: 9998;
+  box-sizing: border-box; }
+  header h1 {
+    margin-bottom: 0; }
+  header p {
+    line-height: 1; }
+
+.info-wrapper {
+  color: white;
+  text-align: center; }
+
+#info-title {
+  display: block; }
+
+.buttons-wrapper {
+  margin: 1em;
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .buttons-wrapper button {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 3.4em;
+    height: 3.4em;
+    border-radius: 50%;
+    background-color: black;
+    background-position: center;
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: .8em;
+    -webkit-transition: all, 300ms, cubic-bezier(0.25, 0.8, 0.25, 1);
+    -moz-transition: all, 300ms, cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all, 300ms, cubic-bezier(0.25, 0.8, 0.25, 1); }
+    .buttons-wrapper button:first-of-type {
+      margin-right: 1em; }
+    .buttons-wrapper button:hover {
+      border-color: white;
+      background-color: #323232; }
+
+#audio-toggle {
+  text-indent: 0;
+  padding: 0;
+  text-align: center; }
+  #audio-toggle img {
+    margin-left: 1px; }
+
+#about-toggle {
+  background-image: url(../src/img/morithumbnail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#loader {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999;
+  color: gray;
+  text-align: center;
+  padding: 2em;
+  box-sizing: border-box; }
+  #loader h1 {
+    margin-top: 200px;
+    margin-bottom: 2.5em; }
+  #loader h3 {
+    margin-bottom: 1.5em; }
+  #loader p {
+    line-height: 1.8; }
+
+.about-wrapper {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 9999999999;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.96); }
+
+.about {
+  padding: 2em;
+  margin: auto;
+  max-width: 900px; }
+  @media screen and (min-width: 1024px) {
+    .about {
+      padding: 3em 9em; } }
+  .about h1 {
+    text-align: center; }
+  .about p {
+    margin: .5em auto 1em;
+    display: block;
+    line-height: 1.4; }
+    .about p.small {
+      margin-top: 1em;
+      font-size: .875em;
+      line-height: 1.3;
+      opacity: .85; }
+    .about p a {
+      font-size: inherit;
+      text-decoration: underline; }
+      .about p a:hover {
+        color: #981CEB;
+        text-decoration: underline; }
+
+#about-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  padding: 1.8em;
+  cursor: pointer;
+  background-color: transparent; }
+  #about-close img {
+    width: 2em;
+    height: 2em; }
+
+.hidden {
+  display: none; }
+
+.gm-fullscreen-control,
+.gm-iv-marker,
+.gm-iv-vertical-separator,
+.gm-iv-address-link {
+  display: none !important; }
+
+.gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom .gmnoprint {
+  display: none !important; }
