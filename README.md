@@ -1,7 +1,7 @@
 # morigoround
 Live project at http://www.morigoround.com/
 
-Mori was created by <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
+Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and <a href="http://www.hyobinyang.com/">Hyo Bin Yang</a> as an interactive project for <a href="http://briankane.net/being-human/">Being Human, AI</a> class at Rhode Island School of Design. This project is an <a href="">open source project.</a> Please help Mori to become a more intelligent virtual celebrity!
 
 <h3>Who's Mori?</h3>
 <p>"Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time."</p>
@@ -29,7 +29,7 @@ When Mori reaches its destination of each trips, the backend server renders the 
 <p>As we release this as an open source project, we would welcome anyone to help Mori turn into a more intelligent internet celebrity.</p>
 
 <h3>Installing Mori</h3>
-Mori uses npm, grunt, and node express server.
+Mori uses <a href="https://www.npmjs.com/">npm</a>, grunt, and node express server.
 In Terminal, install all node modules by running `npm install`. 
 Make sure you have Grunt installed and run `grunt serve`.
 Make sure to replace all API keys in order to test locally.  
