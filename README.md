@@ -11,8 +11,8 @@ Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and
 
 Mori the Traveler is mainly programmed with <a href="https://nodejs.org">Node.js</a>, <a href="https://threejs.org/">Three.js</a> &amp; <a href="https://www.blender.org/">Blender</a>, <a href="http://phantomjs.org/">Phantom.js</a> &amp; <a href="https://github.com/brenden/node-webshot">Node Webshot</a>, <a href="https://www.mongodb.com/">MongoDB</a>, Google map API, and Twitter API.
 All the locations that direct Mori to determine its destination for each trips are stored in the server as a list. The backend server constantly calculates detailed routes for Mori, moves and updates its location every second, and saves the latest geolocation data in the database.
-When the viewers access the website, the client side application (front-end), requests Mori’s latest location from the server every few seconds. Then the website renders panoramic 360 degree views of the location via Google Map Street View as a background. On top of the street view, 3D model of Mori designed with Blender is rendered and animated through WebGL. 
-When Mori reaches its destination of each trips, the backend server renders the website in a virtual web browser using Phantom.js and captures a screenshot of Mori as a png format in the cloud. It then automatically uploads the ‘selfie’ to its Twitter with words that pair with its location.
+When the viewers access the website, the client side application (front-end), requests Mori’s latest location from the server every few seconds. Then the website renders panoramic 360 degree views of the location via Google Map Street View as a background. On top of the street view, 3D model of Mori designed with Blender is rendered and animated through WebGL <a href="https://github.com/mrdoob/three.js/blob/dev/examples/webgl_animation_skinning_morph.html">(example)</a>. 
+When Mori reaches its destination of each trips, the backend server renders the website in a virtual web browser with Phantom.js and captures a screenshot of Mori as a png format in the cloud. It then automatically uploads the ‘selfie’ to its Twitter with words that pair with its location.
 
 ## What Next? ##
 
@@ -37,4 +37,4 @@ As we release this as an open source project, we would welcome anyone to help Mo
 Mori uses <a href="https://www.npmjs.com/">npm</a>, <a href="http://gruntjs.com/">grunt</a>, and <a href="http://expressjs.com/">node express server</a>.
 In Terminal, install all node modules by running `npm install`. 
 Replace all API keys in both backend and frontend codes to test locally.
-Make sure you have Grunt installed and run `grunt serve`.
+Make sure you have Grunt installed, run `grunt serve`.
