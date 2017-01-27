@@ -10,6 +10,8 @@ Mori was created by two artists, <a href="http://eugeneso.com">Eugene So</a> and
 
 "Hey there, I'm Mori, a curious-minded 7 years old bot.🤖 I was born in Providence, Rhode Island. I like to eat, explore, and view world in a different perspective. From the first day of my birth, I left home and started walking constantly to experience a larger world. I’m trying to become the most-traveled bot until I reach 10 years old. Thanks for your interest in my journey and I hope you enjoy as you travel with me in real time."
 
+<img src="https://github.com/sojoonsup/morigoround/blob/master/screenshot.png?raw=true"/>
+
 ## Under the Hood - How it works ##
 
 Mori the Traveler is mainly programmed with <a href="https://nodejs.org">NodeJS</a>, <a href="https://threejs.org/">ThreeJS</a> &amp; <a href="https://www.blender.org/">Blender</a>, <a href="http://phantomjs.org/">PhantomJS</a> &amp; <a href="https://github.com/brenden/node-webshot">Node Webshot</a>, <a href="https://www.mongodb.com/">MongoDB</a>, Google map API, and Twitter API.
